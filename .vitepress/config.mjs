@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Bob的文档网站",
+  description: "一个文档网站",
   base: '/', // 如果部署到 username.github.io，使用根路径
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Code-Bobbo' }
     ]
   }
 })
