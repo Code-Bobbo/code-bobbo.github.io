@@ -63,6 +63,17 @@ export default defineConfig({
         }
       ]
     },
+      // 添加java侧边栏
+      '/java/': [
+        {
+          text: 'Java',
+          items: [
+            { text: '1. 主机安装', link: '/pve/主机安装' },
+            { text: '2. 系统配置', link: '/pve/系统配置' }
+          ]
+        }
+      ]
+    },  
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Code-Bobbo' }
