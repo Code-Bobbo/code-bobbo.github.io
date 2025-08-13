@@ -11,6 +11,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Java', link: '/java' },
       { text: 'Spring', link: '/spring' },
+      { text: '中间件', link: '/middleware' },
+      { text: 'Java其他框架', link: '/spring' },
       { text: '数据库', link: '/markdown-examples' },
       { text: '项目', link: '/markdown-examples' },
       { text: 'PVE', link: '/pve/' }, // 修改这里，指向pve目录
